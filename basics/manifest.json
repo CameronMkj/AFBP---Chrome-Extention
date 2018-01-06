@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "AFBP",
+  "version": "1",
+  "description": "An Anti Facebook Procrastinator Extention for Chrome. ",
+  "author": "CameronMkj",
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+
+  "content_scripts": [{
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["content.js"]
+    }]
+}
